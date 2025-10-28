@@ -12,6 +12,8 @@
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
     "@google-cloud/translate": "^9.2.1",
     "@radix-ui/react-popover": "^1.1.15",
     "@radix-ui/react-scroll-area": "^1.2.10",
