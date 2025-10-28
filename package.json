@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export": "next build && next export",
+    "build:pwa": "next build",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@google-cloud/translate": "^9.2.1",
