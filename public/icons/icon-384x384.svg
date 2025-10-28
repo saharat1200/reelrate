@@ -1,0 +1,41 @@
+<svg width="384" height="384" viewBox="0 0 384 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="384" height="384" rx="84" fill="#2563eb"/>
+  
+  <!-- Film reel -->
+  <circle cx="192" cy="192" r="104" fill="none" stroke="white" stroke-width="8"/>
+  <circle cx="192" cy="192" r="24" fill="white"/>
+  
+  <!-- Film holes -->
+  <circle cx="128" cy="128" r="12" fill="white"/>
+  <circle cx="256" cy="128" r="12" fill="white"/>
+  <circle cx="128" cy="256" r="12" fill="white"/>
+  <circle cx="256" cy="256" r="12" fill="white"/>
+  
+  <!-- Additional film holes -->
+  <circle cx="88" cy="192" r="10" fill="white"/>
+  <circle cx="296" cy="192" r="10" fill="white"/>
+  <circle cx="192" cy="88" r="10" fill="white"/>
+  <circle cx="192" cy="296" r="10" fill="white"/>
+  
+  <!-- Corner film holes -->
+  <circle cx="108" cy="108" r="8" fill="white"/>
+  <circle cx="276" cy="108" r="8" fill="white"/>
+  <circle cx="108" cy="276" r="8" fill="white"/>
+  <circle cx="276" cy="276" r="8" fill="white"/>
+  
+  <!-- Diagonal film holes -->
+  <circle cx="148" cy="148" r="6" fill="white"/>
+  <circle cx="236" cy="148" r="6" fill="white"/>
+  <circle cx="148" cy="236" r="6" fill="white"/>
+  <circle cx="236" cy="236" r="6" fill="white"/>
+  
+  <!-- Stars for rating -->
+  <path d="M96 96 L108 68 L120 96 L148 96 L126 116 L138 144 L108 128 L78 144 L90 116 L68 96 Z" fill="#fbbf24"/>
+  <path d="M264 96 L276 68 L288 96 L316 96 L294 116 L306 144 L276 128 L246 144 L258 116 L236 96 Z" fill="#fbbf24"/>
+  <path d="M180 52 L192 24 L204 52 L232 52 L210 72 L222 100 L192 84 L162 100 L174 72 L152 52 Z" fill="#fbbf24"/>
+  <path d="M96 288 L108 260 L120 288 L148 288 L126 308 L138 336 L108 320 L78 336 L90 308 L68 288 Z" fill="#fbbf24"/>
+  <path d="M264 288 L276 260 L288 288 L316 288 L294 308 L306 336 L276 320 L246 336 L258 308 L236 288 Z" fill="#fbbf24"/>
+  
+  <!-- App name -->
+  <text x="192" y="352" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">ReelRate</text>
+</svg>

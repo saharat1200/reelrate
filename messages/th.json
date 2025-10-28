@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "หน้าแรก",
+    "movies": "หนัง",
+    "anime": "อนิเมะ",
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "profile": "โปรไฟล์",
+    "search": "ค้นหา",
+    "install": "ติดตั้งแอป"
+  },
+  "home": {
+    "title": "ค้นพบหนังและอนิเมะที่ดีที่สุด",
+    "subtitle": "รีวิวและให้คะแนนหนังและอนิเมะโปรดของคุณ",
+    "popularMovies": "หนังยอดนิยม",
+    "popularAnime": "อนิเมะยอดนิยม",
+    "viewAll": "ดูทั้งหมด"
+  },
+  "movies": {
+    "title": "หนังยอดนิยม",
+    "subtitle": "ค้นพบหนังที่ดีที่สุดจาก TMDB",
+    "nowPlaying": "กำลังฉาย",
+    "popular": "ยอดนิยม",
+    "topRated": "คะแนนสูงสุด",
+    "upcoming": "เร็วๆ นี้",
+    "viewDetails": "ดูรายละเอียด",
+    "loadMore": "โหลดเพิ่มเติม"
+  },
+  "anime": {
+    "title": "อนิเมะยอดนิยม",
+    "subtitle": "ค้นพบอนิเมะที่ดีที่สุดจาก MyAnimeList",
+    "airing": "กำลังออนแอร์",
+    "popular": "ยอดนิยม",
+    "topRated": "คะแนนสูงสุด",
+    "upcoming": "เร็วๆ นี้",
+    "viewDetails": "ดูรายละเอียด",
+    "loadMore": "โหลดเพิ่มเติม"
+  },
+  "auth": {
+    "loginRequired": "กรุณาเข้าสู่ระบบเพื่อดูรายละเอียด",
+    "loginButton": "เข้าสู่ระบบ",
+    "signupButton": "สมัครสมาชิก",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "confirmPassword": "ยืนยันรหัสผ่าน",
+    "forgotPassword": "ลืมรหัสผ่าน?",
+    "noAccount": "ยังไม่มีบัญชี?",
+    "hasAccount": "มีบัญชีแล้ว?"
+  },
+  "details": {
+    "overview": "เรื่องย่อ",
+    "synopsis": "เรื่องย่อ",
+    "genres": "หมวดหมู่",
+    "releaseDate": "วันที่เข้าฉาย",
+    "runtime": "ระยะเวลา",
+    "rating": "คะแนน",
+    "ratings": "คะแนน",
+    "status": "สถานะ",
+    "type": "ประเภท",
+    "episodes": "ตอน",
+    "aired": "ออนแอร์",
+    "airDate": "วันที่เริ่มออกอากาศ",
+    "endDate": "วันที่จบ",
+    "score": "คะแนน MAL",
+    "malScore": "คะแนน MAL",
+    "ratedBy": "จำนวนผู้ให้คะแนน",
+    "people": "คน",
+    "watchTrailer": "ดูตัวอย่าง",
+    "addToWatchlist": "เพิ่มในรายการดู",
+    "removeFromWatchlist": "ลบจากรายการดู",
+    "addToFavorites": "เพิ่มในรายการโปรด",
+    "removeFromFavorites": "ลบจากรายการโปรด",
+    "addedToWatchlist": "เพิ่มในรายการดูแล้ว!",
+    "removedFromWatchlist": "ลบจากรายการดูแล้ว!",
+    "share": "แชร์",
+    "noTrailer": "ไม่มีตัวอย่างอนิเมะสำหรับเรื่องนี้",
+    "animeInfo": "ข้อมูลอนิเมะ",
+    "externalLinks": "ลิงก์ภายนอก"
+  },
+  "search": {
+    "placeholder": "ค้นหาหนังหรืออนิเมะ...",
+    "noResults": "ไม่พบผลลัพธ์",
+    "searchResults": "ผลการค้นหา",
+    "movies": "หนัง",
+    "anime": "อนิเมะ"
+  },
+  "theme": {
+    "light": "โหมดสว่าง",
+    "dark": "โหมดมืด",
+    "system": "ตามระบบ",
+    "blue": "ธีมน้ำเงิน",
+    "green": "ธีมเขียว",
+    "purple": "ธีมม่วง",
+    "red": "ธีมแดง"
+  },
+  "common": {
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "retry": "ลองใหม่",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "close": "ปิด",
+    "back": "กลับ",
+    "next": "ถัดไป",
+    "previous": "ก่อนหน้า",
+    "language": "ภาษา",
+    "notFound": "ไม่พบอนิเมะที่ค้นหา",
+    "notFoundDescription": "อนิเมะที่คุณค้นหาอาจไม่มีอยู่ในระบบ",
+    "linkCopied": "คัดลอกลิงก์แล้ว!"
+  }
+}

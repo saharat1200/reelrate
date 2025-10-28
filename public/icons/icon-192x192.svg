@@ -1,0 +1,33 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="42" fill="#2563eb"/>
+  
+  <!-- Film reel -->
+  <circle cx="96" cy="96" r="52" fill="none" stroke="white" stroke-width="5"/>
+  <circle cx="96" cy="96" r="12" fill="white"/>
+  
+  <!-- Film holes -->
+  <circle cx="64" cy="64" r="6" fill="white"/>
+  <circle cx="128" cy="64" r="6" fill="white"/>
+  <circle cx="64" cy="128" r="6" fill="white"/>
+  <circle cx="128" cy="128" r="6" fill="white"/>
+  
+  <!-- Additional film holes -->
+  <circle cx="44" cy="96" r="5" fill="white"/>
+  <circle cx="148" cy="96" r="5" fill="white"/>
+  <circle cx="96" cy="44" r="5" fill="white"/>
+  <circle cx="96" cy="148" r="5" fill="white"/>
+  
+  <!-- Corner film holes -->
+  <circle cx="54" cy="54" r="4" fill="white"/>
+  <circle cx="138" cy="54" r="4" fill="white"/>
+  <circle cx="54" cy="138" r="4" fill="white"/>
+  <circle cx="138" cy="138" r="4" fill="white"/>
+  
+  <!-- Stars for rating -->
+  <path d="M48 48 L54 34 L60 48 L74 48 L63 58 L69 72 L54 64 L39 72 L45 58 L34 48 Z" fill="#fbbf24"/>
+  <path d="M132 48 L138 34 L144 48 L158 48 L147 58 L153 72 L138 64 L123 72 L129 58 L118 48 Z" fill="#fbbf24"/>
+  <path d="M90 26 L96 12 L102 26 L116 26 L105 36 L111 50 L96 42 L81 50 L87 36 L76 26 Z" fill="#fbbf24"/>
+  
+  <!-- App name -->
+  <text x="96" y="176" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">ReelRate</text>
+</svg>

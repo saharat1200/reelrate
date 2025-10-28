@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#2563eb"/>
+  
+  <!-- Film reel -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="white" stroke-width="10"/>
+  <circle cx="256" cy="256" r="32" fill="white"/>
+  
+  <!-- Film holes -->
+  <circle cx="172" cy="172" r="16" fill="white"/>
+  <circle cx="340" cy="172" r="16" fill="white"/>
+  <circle cx="172" cy="340" r="16" fill="white"/>
+  <circle cx="340" cy="340" r="16" fill="white"/>
+  
+  <!-- Additional film holes -->
+  <circle cx="116" cy="256" r="14" fill="white"/>
+  <circle cx="396" cy="256" r="14" fill="white"/>
+  <circle cx="256" cy="116" r="14" fill="white"/>
+  <circle cx="256" cy="396" r="14" fill="white"/>
+  
+  <!-- Corner film holes -->
+  <circle cx="144" cy="144" r="12" fill="white"/>
+  <circle cx="368" cy="144" r="12" fill="white"/>
+  <circle cx="144" cy="368" r="12" fill="white"/>
+  <circle cx="368" cy="368" r="12" fill="white"/>
+  
+  <!-- Diagonal film holes -->
+  <circle cx="196" cy="196" r="8" fill="white"/>
+  <circle cx="316" cy="196" r="8" fill="white"/>
+  <circle cx="196" cy="316" r="8" fill="white"/>
+  <circle cx="316" cy="316" r="8" fill="white"/>
+  
+  <!-- Stars for rating -->
+  <path d="M128 128 L144 92 L160 128 L196 128 L168 152 L184 188 L144 168 L104 188 L120 152 L92 128 Z" fill="#fbbf24"/>
+  <path d="M352 128 L368 92 L384 128 L420 128 L392 152 L408 188 L368 168 L328 188 L344 152 L316 128 Z" fill="#fbbf24"/>
+  <path d="M240 70 L256 34 L272 70 L308 70 L280 94 L296 130 L256 110 L216 130 L232 94 L204 70 Z" fill="#fbbf24"/>
+  <path d="M128 384 L144 348 L160 384 L196 384 L168 408 L184 444 L144 424 L104 444 L120 408 L92 384 Z" fill="#fbbf24"/>
+  <path d="M352 384 L368 348 L384 384 L420 384 L392 408 L408 444 L368 424 L328 444 L344 408 L316 384 Z" fill="#fbbf24"/>
+  
+  <!-- App name -->
+  <text x="256" y="470" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="42" font-weight="bold">ReelRate</text>
+</svg>

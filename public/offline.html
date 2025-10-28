@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ออฟไลน์ - ReelRate</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .offline-container {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .offline-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .retry-button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .retry-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .features {
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .feature-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+            
+            .offline-icon {
+                width: 80px;
+                height: 80px;
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-container">
+        <div class="offline-icon">
+            📱
+        </div>
+        
+        <h1>คุณอยู่ในโหมดออฟไลน์</h1>
+        
+        <p>
+            ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้ในขณะนี้ 
+            แต่คุณยังสามารถใช้งานฟีเจอร์บางส่วนของ ReelRate ได้
+        </p>
+        
+        <button class="retry-button" onclick="window.location.reload()">
+            ลองเชื่อมต่อใหม่
+        </button>
+        
+        <div class="features">
+            <div class="feature-item">
+                <span class="feature-icon">💾</span>
+                <span>ดูข้อมูลที่เคยโหลดไว้</span>
+            </div>
+            
+            <div class="feature-item">
+                <span class="feature-icon">⭐</span>
+                <span>ดูรายการโปรดของคุณ</span>
+            </div>
+            
+            <div class="feature-item">
+                <span class="feature-icon">📝</span>
+                <span>เขียนรีวิว (จะส่งเมื่อออนไลน์)</span>
+            </div>
+            
+            <div class="feature-item">
+                <span class="feature-icon">👤</span>
+                <span>ดูโปรไฟล์ของคุณ</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check for network connectivity
+        function checkOnlineStatus() {
+            if (navigator.onLine) {
+                // Redirect to home page when back online
+                window.location.href = '/';
+            }
+        }
+
+        // Listen for online/offline events
+        window.addEventListener('online', checkOnlineStatus);
+        window.addEventListener('offline', () => {
+            console.log('Gone offline');
+        });
+
+        // Check connectivity every 5 seconds
+        setInterval(checkOnlineStatus, 5000);
+
+        // Service worker registration check
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.ready.then(function(registration) {
+                console.log('Service Worker is ready');
+            });
+        }
+    </script>
+</body>
+</html>

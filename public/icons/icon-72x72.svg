@@ -1,0 +1,17 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="72" height="72" rx="16" fill="#2563eb"/>
+  
+  <!-- Film reel -->
+  <circle cx="36" cy="36" r="20" fill="none" stroke="white" stroke-width="2"/>
+  <circle cx="36" cy="36" r="4" fill="white"/>
+  
+  <!-- Film holes -->
+  <circle cx="26" cy="26" r="2" fill="white"/>
+  <circle cx="46" cy="26" r="2" fill="white"/>
+  <circle cx="26" cy="46" r="2" fill="white"/>
+  <circle cx="46" cy="46" r="2" fill="white"/>
+  
+  <!-- Stars for rating -->
+  <path d="M20 20 L22 16 L24 20 L28 20 L25 23 L26 27 L22 25 L18 27 L19 23 L16 20 Z" fill="#fbbf24"/>
+  <path d="M48 20 L50 16 L52 20 L56 20 L53 23 L54 27 L50 25 L46 27 L47 23 L44 20 Z" fill="#fbbf24"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="#3B82F6"/>
+  
+  <!-- Film reel -->
+  <circle cx="256" cy="200" r="80" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <circle cx="256" cy="200" r="20" fill="#FFFFFF"/>
+  
+  <!-- Film holes -->
+  <circle cx="216" cy="160" r="8" fill="#FFFFFF"/>
+  <circle cx="296" cy="160" r="8" fill="#FFFFFF"/>
+  <circle cx="216" cy="240" r="8" fill="#FFFFFF"/>
+  <circle cx="296" cy="240" r="8" fill="#FFFFFF"/>
+  <circle cx="176" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="336" cy="200" r="8" fill="#FFFFFF"/>
+  
+  <!-- Stars for rating -->
+  <g fill="#FFD700">
+    <path d="M180 320 L185 335 L200 335 L188 345 L193 360 L180 350 L167 360 L172 345 L160 335 L175 335 Z"/>
+    <path d="M220 320 L225 335 L240 335 L228 345 L233 360 L220 350 L207 360 L212 345 L200 335 L215 335 Z"/>
+    <path d="M260 320 L265 335 L280 335 L268 345 L273 360 L260 350 L247 360 L252 345 L240 335 L255 335 Z"/>
+    <path d="M300 320 L305 335 L320 335 L308 345 L313 360 L300 350 L287 360 L292 345 L280 335 L295 335 Z"/>
+    <path d="M340 320 L345 335 L360 335 L348 345 L353 360 L340 350 L327 360 L332 345 L320 335 L335 335 Z"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+    ReelRate
+  </text>
+</svg>

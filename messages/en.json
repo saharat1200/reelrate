@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "movies": "Movies",
+    "anime": "Anime",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile",
+    "search": "Search",
+    "install": "Install App"
+  },
+  "home": {
+    "title": "Discover the Best Movies and Anime",
+    "subtitle": "Review and rate your favorite movies and anime",
+    "popularMovies": "Popular Movies",
+    "popularAnime": "Popular Anime",
+    "viewAll": "View All"
+  },
+  "movies": {
+    "title": "Popular Movies",
+    "subtitle": "Discover the best movies from TMDB",
+    "nowPlaying": "Now Playing",
+    "popular": "Popular",
+    "topRated": "Top Rated",
+    "upcoming": "Upcoming",
+    "viewDetails": "View Details",
+    "loadMore": "Load More"
+  },
+  "anime": {
+    "title": "Popular Anime",
+    "subtitle": "Discover the best anime from MyAnimeList",
+    "airing": "Currently Airing",
+    "popular": "Popular",
+    "topRated": "Top Rated",
+    "upcoming": "Upcoming",
+    "viewDetails": "View Details",
+    "loadMore": "Load More"
+  },
+  "auth": {
+    "loginRequired": "Please login to view details",
+    "loginButton": "Login",
+    "signupButton": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "details": {
+    "overview": "Overview",
+    "synopsis": "Synopsis",
+    "genres": "Genres",
+    "releaseDate": "Release Date",
+    "runtime": "Runtime",
+    "rating": "Rating",
+    "ratings": "ratings",
+    "status": "Status",
+    "type": "Type",
+    "episodes": "Episodes",
+    "aired": "Aired",
+    "airDate": "Air Date",
+    "endDate": "End Date",
+    "score": "MAL Score",
+    "malScore": "MAL Score",
+    "ratedBy": "Rated by",
+    "people": "people",
+    "watchTrailer": "Watch Trailer",
+    "addToWatchlist": "Add to Watchlist",
+    "removeFromWatchlist": "Remove from Watchlist",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "addedToWatchlist": "Added to watchlist!",
+    "removedFromWatchlist": "Removed from watchlist!",
+    "share": "Share",
+    "noTrailer": "No trailer available for this anime",
+    "animeInfo": "Anime Information",
+    "externalLinks": "External Links"
+  },
+  "search": {
+    "placeholder": "Search movies or anime...",
+    "noResults": "No results found",
+    "searchResults": "Search Results",
+    "movies": "Movies",
+    "anime": "Anime"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "system": "System",
+    "blue": "Blue Theme",
+    "green": "Green Theme",
+    "purple": "Purple Theme",
+    "red": "Red Theme"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "language": "Language",
+    "notFound": "Not Found",
+    "notFoundDescription": "The content you are looking for may not exist in the system",
+    "linkCopied": "Link copied!"
+  }
+}

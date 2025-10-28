@@ -1,0 +1,26 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="40" fill="#2563eb"/>
+  
+  <!-- Film reel -->
+  <circle cx="90" cy="90" r="50" fill="none" stroke="white" stroke-width="5"/>
+  <circle cx="90" cy="90" r="12" fill="white"/>
+  
+  <!-- Film holes -->
+  <circle cx="60" cy="60" r="6" fill="white"/>
+  <circle cx="120" cy="60" r="6" fill="white"/>
+  <circle cx="60" cy="120" r="6" fill="white"/>
+  <circle cx="120" cy="120" r="6" fill="white"/>
+  
+  <!-- Additional film holes -->
+  <circle cx="40" cy="90" r="5" fill="white"/>
+  <circle cx="140" cy="90" r="5" fill="white"/>
+  <circle cx="90" cy="40" r="5" fill="white"/>
+  <circle cx="90" cy="140" r="5" fill="white"/>
+  
+  <!-- Stars for rating -->
+  <path d="M45 45 L51 31 L57 45 L71 45 L60 55 L66 69 L51 61 L36 69 L42 55 L31 45 Z" fill="#fbbf24"/>
+  <path d="M123 45 L129 31 L135 45 L149 45 L138 55 L144 69 L129 61 L114 69 L120 55 L109 45 Z" fill="#fbbf24"/>
+  
+  <!-- App name -->
+  <text x="90" y="165" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">ReelRate</text>
+</svg>
