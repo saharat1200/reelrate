@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   // PWA and production optimizations
-  output: 'standalone',
+  // output: 'standalone', // Commented out for Vercel deployment
   
   images: {
     remotePatterns: [
